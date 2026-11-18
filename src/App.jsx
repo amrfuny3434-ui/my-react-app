@@ -11,7 +11,7 @@ const projects = [
 function App() {
   return (
     <div>
-      <h1>مشاريعي</h1>
+      <h1 className="my-6 text-center text-3xl font-bold">مشاريعي</h1>
       <div className="cards">
         {projects.map((project) => (
           <ProjectCard
