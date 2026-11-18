@@ -1,5 +1,6 @@
 import ProjectCard from "./ProjectCard";
 import TodoApp from "./TodoApp";
+import WeatherApp from "./WeatherApp";
 
 const projects = [
   { title: "آلة حاسبة", description: "جمع رقمين بـ JavaScript." },
@@ -23,6 +24,7 @@ function App() {
       </div>
 
       <TodoApp />
+      <WeatherApp />
     </div>
   );
 }
