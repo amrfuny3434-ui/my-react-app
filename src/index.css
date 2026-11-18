@@ -124,3 +124,48 @@ code {
   width: 200px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
+.todo {
+  max-width: 480px;
+  margin: 40px auto;
+  background-color: white;
+  color: #222222;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.add-row {
+  display: flex;
+  gap: 8px;
+}
+
+.todo input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+}
+
+.todo button {
+  padding: 10px 16px;
+  font-size: 16px;
+  background-color: #2a7de1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.todo ul {
+  list-style: none;
+  padding: 0;
+}
+
+.todo li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eeeeee;
+}
